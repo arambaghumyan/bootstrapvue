@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Simbase/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Simbase from './components/Simbase.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Simbase
   }
 }
 </script>
